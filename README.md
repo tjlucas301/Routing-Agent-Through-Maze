@@ -1,1 +1,1 @@
-# Routing-Agent-Through-Maze
+In this project, I wrote a program that routes an "agent" through a maze.  The map is a 6 x 7 grid of .'s and X's a, with the start signified by an "s" and the finish with an "@".  The agent can only travel on spaces with a ., and the X's function as walls that the agent cannot travel through.  My program navigates a search tree with a Manhattan distance heuristic to guide the search.
