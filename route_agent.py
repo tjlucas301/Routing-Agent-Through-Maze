@@ -1,5 +1,3 @@
-import sys
-
 map1 = "map1.txt"
 map2 = "map2.txt"
 
@@ -32,7 +30,7 @@ def search(map):
    
     # Find agent start position
     agent_loc = [(row_i, col_i) for col_i in range(len(map[0])) for row_i in range(len(map)) if
-                 map[row_i][col_i] == "p"][0]
+                 map[row_i][col_i] == "s"][0]
 
     past_row = None
     past_col = None
